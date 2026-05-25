@@ -344,7 +344,7 @@ strong, b { font-weight: 600; }
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: -0.02em;
 }
-.stat-block-num span { font-size: 3.5rem; }
+.stat-block-num span { font-size: inherit; }
 
 .stat-block-title {
     font-size: 1.05rem;
@@ -834,6 +834,7 @@ strong, b { font-weight: 600; }
     .problem-grid { grid-template-columns: 1fr; gap: 36px; }
     .problem-heading { font-size: 2.6rem !important; line-height: 1.1; }
     .problem-body { font-size: 1rem; }
+    .problem-pills { justify-content: center; }
     .problem-pill { padding: 12px 20px; font-size: 0.65rem; }
 
     .stat-blocks-section { padding: 50px 0 50px; }
@@ -894,7 +895,7 @@ strong, b { font-weight: 600; }
     /* Stat blocks: tighter padding, smaller numbers */
     .stat-block { padding: 36px 22px; }
     .stat-block-num { font-size: 3rem; margin-bottom: 20px; }
-    .stat-block-num span { font-size: 2rem; }
+    .stat-block-num span { font-size: inherit; }
     .stat-block-bg-num { font-size: 5.5rem; }
     .stat-block-title { font-size: 0.9rem; }
 
